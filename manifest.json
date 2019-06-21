@@ -1,0 +1,14 @@
+{
+  "name": "Seeing Sprouts",
+  "version": "0.1",
+  "description": "Chrome extension that replaces every image with brussel sprouts.",
+  "manifest_version": 2,
+  "web_accessible_resources": ["*.jpg"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "all_frames": true,
+      "js": ["content.js"]
+    }
+  ]
+}
