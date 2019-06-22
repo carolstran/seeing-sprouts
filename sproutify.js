@@ -8,7 +8,7 @@ const imagePaths = [
   "images/susbany-pixabay.jpg",
   "images/ulrike-leone-pixabay-II.jpg",
   "images/ulrike-leone-pixabay.jpg"
-].map(path => chrome.extension.getURL(path));
+].map(path => browser.runtime.getURL(path));
 
 getRandomSprout = () => {
   return imagePaths[Math.floor(Math.random() * imagePaths.length)];
