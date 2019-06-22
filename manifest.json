@@ -10,5 +10,9 @@
       "all_frames": true,
       "js": ["sproutify.js"]
     }
-  ]
+  ],
+  "icons": {
+    "48": "images/icon-sprout-48.png",
+    "96": "images/icon-sprout-96.png"
+  }
 }
