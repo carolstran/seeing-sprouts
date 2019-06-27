@@ -11,8 +11,20 @@
       "js": ["sproutify.js"]
     }
   ],
+  "options_ui": {
+    "page": "options.html"
+  },
+  "permissions": [
+    "storage"
+  ],
   "icons": {
-    "48": "images/icon-sprout-48.png",
-    "96": "images/icon-sprout-96.png"
+    "48": "images/sprouts/icon-sprout-48.png",
+    "96": "images/sprouts/icon-sprout-96.png"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "addon@seeing-sprouts.com",
+      "strict_min_version": "53.0"
+    }
   }
 }
