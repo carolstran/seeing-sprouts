@@ -61,16 +61,17 @@ body {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  background-image: url("./images/icons/angle-down.svg");
+  background-image: url("../images/icons/angle-down.svg");
   background-size: 16px;
   background-position: center right 10px;
   background-repeat: no-repeat;
   line-height: 22px;
 }
 
-.option {
+option {
   padding: 1rem;
 }
+
 #status {
   font-size: 14px;
   margin-top: 0.5rem;

@@ -12,11 +12,9 @@
     }
   ],
   "options_ui": {
-    "page": "options.html"
+    "page": "veggie-selector/options.html"
   },
-  "permissions": [
-    "storage"
-  ],
+  "permissions": ["storage"],
   "icons": {
     "48": "images/sprouts/icon-sprout-48.png",
     "96": "images/sprouts/icon-sprout-96.png"

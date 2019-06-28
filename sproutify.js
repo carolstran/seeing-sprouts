@@ -10,15 +10,6 @@ const sproutImagePaths = [
   "images/sprouts/ulrike-leone-pixabay.jpg"
 ];
 
-const potatoImagePaths = [
-  "images/potatoes/bowl-1842294_1920.jpg",
-  "images/potatoes/potatoes-1866415_1920.jpg",
-  "images/potatoes/eat-4239509_1920.jpg",
-  "images/potatoes/prince-abid-1139407-unsplash.jpg",
-  "images/potatoes/monika-grabkowska-1444098-unsplash.jpg",
-  "images/potatoes/ukraine-2652561_1920.jpg"
-];
-
 const avocadoImagePaths = [
   "images/avocados/charles-rnxGtZJl1Q8-unsplash.jpg",
   "images/avocados/FoodieFactor-avocado-pixabay.jpg",
@@ -28,15 +19,6 @@ const avocadoImagePaths = [
   "images/avocados/silverstylus-avocado-pixabay.jpg",
   "images/avocados/thought-catalog-EMX1eJ1BcgU-unsplash.jpg",
   "images/avocados/wixin_56l-avocado-pixabay.png"
-];
-
-const eggplantImagePaths = [
-  "images/eggplants/charles-deluvio-landscape-unsplash.jpg",
-  "images/eggplants/charles-deluvio-portrait-unsplash.jpg",
-  "images/eggplants/charles-deluvio-teal-unsplash.jpg",
-  "images/eggplants/jacqueline-macou-pixabay.jpg",
-  "images/eggplants/lino-lombardi-pixabay.jpg",
-  "images/eggplants/taken-pixabay.jpg"
 ];
 
 const cornImagePaths = [
@@ -58,6 +40,24 @@ const candyCornImagePaths = [
   "images/candyCorn/wokandapix-pixabay.jpg"
 ];
 
+const eggplantImagePaths = [
+  "images/eggplants/charles-deluvio-landscape-unsplash.jpg",
+  "images/eggplants/charles-deluvio-portrait-unsplash.jpg",
+  "images/eggplants/charles-deluvio-teal-unsplash.jpg",
+  "images/eggplants/jacqueline-macou-pixabay.jpg",
+  "images/eggplants/lino-lombardi-pixabay.jpg",
+  "images/eggplants/taken-pixabay.jpg"
+];
+
+const potatoImagePaths = [
+  "images/potatoes/bowl-1842294_1920.jpg",
+  "images/potatoes/potatoes-1866415_1920.jpg",
+  "images/potatoes/eat-4239509_1920.jpg",
+  "images/potatoes/prince-abid-1139407-unsplash.jpg",
+  "images/potatoes/monika-grabkowska-1444098-unsplash.jpg",
+  "images/potatoes/ukraine-2652561_1920.jpg"
+];
+
 const map = {
   sprouts: sproutImagePaths,
   potatoes: potatoImagePaths,
@@ -75,7 +75,7 @@ const restoreOptionsPromise = () => {
   return promise;
 };
 
-const getRandomSprout = imagePath => {
+const getRandomImage = imagePath => {
   const imagePaths = imagePath.map(path => browser.runtime.getURL(path));
   return imagePaths[Math.floor(Math.random() * imagePaths.length)];
 };
@@ -87,7 +87,7 @@ const updateImages = () => {
     const imagePath = map[preferredVeggie];
     let images = document.querySelectorAll("img");
     for (let i = 0; i < images.length; i++) {
-      images[i].setAttribute("src", getRandomSprout(imagePath));
+      images[i].setAttribute("src", getRandomImage(imagePath));
     }
   });
 };
