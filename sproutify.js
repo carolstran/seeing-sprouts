@@ -39,11 +39,32 @@ const eggplantImagePaths = [
   "images/eggplants/taken-pixabay.jpg"
 ];
 
+const cornImagePaths = [
+  "images/corn/buenosia-carol-pexels.jpg",
+  "images/corn/charles-deluvio-robot-unsplash.jpg",
+  "images/corn/charles-deluvio-unsplash.jpg",
+  "images/corn/christina-branco-unsplash.jpg",
+  "images/corn/marco-antonio-victorino-unsplash.jpg",
+  "images/corn/mohd-hafiz-yahya-unsplash.jpg",
+  "images/corn/rawpixel-cob-pexels.jpg",
+  "images/corn/rawpixel-pexels.jpg",
+  "images/corn/virgil-cayasa-unsplash.jpg"
+];
+
+const candyCornImagePaths = [
+  "images/candyCorn/dane-deaner-unsplash.jpg",
+  "images/candyCorn/sheri-silver-unsplash.jpg",
+  "images/candyCorn/skeeze-pixabay.jpg",
+  "images/candyCorn/wokandapix-pixabay.jpg"
+];
+
 const map = {
   sprouts: sproutImagePaths,
   potatoes: potatoImagePaths,
   avocados: avocadoImagePaths,
-  eggplants: eggplantImagePaths
+  eggplants: eggplantImagePaths,
+  corn: cornImagePaths,
+  candyCorn: candyCornImagePaths
 };
 
 const restoreOptionsPromise = () => {
