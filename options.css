@@ -1,0 +1,77 @@
+html,
+body {
+  font-size: 16px;
+  margin: 0;
+}
+
+body {
+  padding: 1.5rem;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  -o-flex-direction: column;
+  flex-direction: column;
+  -ms-align-items: center;
+  align-items: center;
+}
+
+.question {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  -ms-align-items: center;
+  align-items: center;
+  font-size: 1rem;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  -o-flex-direction: column;
+  flex-direction: column;
+}
+
+#veggie {
+  margin-top: 0.75rem;
+}
+
+#save {
+  box-shadow: none;
+  border-radius: 30px;
+  background-color: #12ad2e;
+  color: white;
+  font-size: 1rem;
+  border: 0;
+  padding: 0.75rem 3rem;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.select {
+  width: 150px;
+  padding: 5px 35px 5px 5px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  height: 34px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-image: url("./images/icons/angle-down.svg");
+  background-size: 16px;
+  background-position: center right 10px;
+  background-repeat: no-repeat;
+  line-height: 22px;
+}
+
+.option {
+  padding: 1rem;
+}
+#status {
+  font-size: 14px;
+  margin-top: 0.5rem;
+}
