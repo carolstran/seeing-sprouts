@@ -2,7 +2,24 @@
 
 _A browser extension that uses the [WebExtensions API](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions) to replace all images on a web page with brussels sprouts photos._
 
-![Screenshot of Seeing Sprouts in action aka Twitter but with only photos of brussels sprouts](images/seeing-sprouts-screenshot.png)
+![Screenshot of Seeing Sprouts in action aka Carolyn's Twitter but with only photos of brussels sprouts.](images/screenshots/tweet-sprouts.png)
+
+## Supported Browsers
+
+Working version is built for Firefox 🦊
+
+## Supported Veggies
+
+This project was initially created to celebrate the sprout. But now, [thanks to the community](https://github.com/carolstran/seeing-sprouts/graphs/contributors), there's support for more vegetables, nutrient-dense fruits and other veggie-like things people enjoy.
+
+- 🌳 [Brussels sprouts](images/screenshots/tweet-sprouts.png) (default)
+- 🥑 [Avocados](images/screenshots/tweet-avocados.png)
+- 🌽 [Corn](images/screenshots/tweet-corn.png)
+- 👻 [Candy corn](images/screenshots/tweet-candycorn.png)
+- 🍆 [Eggplants](images/screenshots/tweet-eggplants.png)
+- 🥔 [Potatoes](images/screenshots/tweet-potatoes.png)
+
+If you want to add something new, feel free to fork this repo and open a PR.
 
 ## Credits
 
