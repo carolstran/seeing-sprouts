@@ -77,7 +77,6 @@ const tomatoImagePaths = [
   "images/tomatoes/marc-mueller-dJHdolN553o-unsplash.jpg",
   "images/tomatoes/thomas-martinsen-iASD5_HpTZc-unsplash.jpg",
   "images/tomatoes/tom-hermans-nM6qrtnVKn8-unsplash.jpg",
-
 ];
 
 
