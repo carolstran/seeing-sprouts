@@ -14,12 +14,13 @@ This project was initially created to celebrate the sprout. But now, [thanks to 
 
 - 🌳 [Brussels sprouts](images/screenshots/tweet-sprouts.png) (default)
 - 🥑 [Avocados](images/screenshots/tweet-avocados.png)
+- 🥦 [Broccoli](images/screenshots/tweet-broccoli.png)
 - 🌽 [Corn](images/screenshots/tweet-corn.png)
 - 👻 [Candy corn](images/screenshots/tweet-candycorn.png)
 - 🍆 [Eggplants](images/screenshots/tweet-eggplants.png)
 - 🥔 [Potatoes](images/screenshots/tweet-potatoes.png)
 
-If you want to add something new, feel free to fork this repo and open a PR.
+If you want to add a new veggie, feel free to fork this repo and open a PR.
 
 ## Credits
 

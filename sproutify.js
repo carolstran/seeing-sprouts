@@ -21,6 +21,17 @@ const avocadoImagePaths = [
   "images/avocados/wixin_56l-avocado-pixabay.png"
 ];
 
+const broccoliImagePaths = [
+  "images/broccoli/annie-spratt-unsplash.jpg",
+  "images/broccoli/auntmasako-pixabay.jpg",
+  "images/broccoli/buenosia-carol-pexels.jpg",
+  "images/broccoli/cj-dayrit-unsplash.jpg",
+  "images/broccoli/engin-akyurt-pixabay.jpg",
+  "images/broccoli/foodism360-unsplash.jpg",
+  "images/broccoli/hessam-hojati-unsplash.jpg",
+  "images/broccoli/pixabay-general.jpg"
+];
+
 const cornImagePaths = [
   "images/corn/buenosia-carol-pexels.jpg",
   "images/corn/charles-deluvio-robot-unsplash.jpg",
@@ -60,11 +71,12 @@ const potatoImagePaths = [
 
 const map = {
   sprouts: sproutImagePaths,
-  potatoes: potatoImagePaths,
   avocados: avocadoImagePaths,
-  eggplants: eggplantImagePaths,
+  broccoli: broccoliImagePaths,
   corn: cornImagePaths,
-  candyCorn: candyCornImagePaths
+  candyCorn: candyCornImagePaths,
+  eggplants: eggplantImagePaths,
+  potatoes: potatoImagePaths
 };
 
 const restoreOptionsPromise = () => {
