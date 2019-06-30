@@ -1,6 +1,5 @@
 const sproutImagePaths = [
   "images/sprouts/brussels-sprouts-pexels.jpg",
-  "images/sprouts/danielle-macinnes-unsplash.jpg",
   "images/sprouts/keenan-loo-unsplash.jpg",
   "images/sprouts/hans-braxmeier-pixabay.jpg",
   "images/sprouts/kai-kalhh-pixabay.jpg",
@@ -76,9 +75,8 @@ const tomatoImagePaths = [
   "images/tomatoes/lars-blankers-6Z7Ss9jlEL0-unsplash.jpg",
   "images/tomatoes/marc-mueller-dJHdolN553o-unsplash.jpg",
   "images/tomatoes/thomas-martinsen-iASD5_HpTZc-unsplash.jpg",
-  "images/tomatoes/tom-hermans-nM6qrtnVKn8-unsplash.jpg",
+  "images/tomatoes/tom-hermans-nM6qrtnVKn8-unsplash.jpg"
 ];
-
 
 const map = {
   sprouts: sproutImagePaths,
@@ -88,7 +86,7 @@ const map = {
   candyCorn: candyCornImagePaths,
   eggplants: eggplantImagePaths,
   potatoes: potatoImagePaths,
-  tomatoes: tomatoImagePaths,
+  tomatoes: tomatoImagePaths
 };
 
 const restoreOptionsPromise = () => {

@@ -19,6 +19,7 @@ This project was initially created to celebrate the sprout. But now, [thanks to 
 - 👻 [Candy corn](images/screenshots/tweet-candycorn.png)
 - 🍆 [Eggplants](images/screenshots/tweet-eggplants.png)
 - 🥔 [Potatoes](images/screenshots/tweet-potatoes.png)
+- 🍅 [Tomatoes](images/screenshots/tweet-tomatoes.png)
 
 If you want to add a new veggie, feel free to fork this repo and open a PR.
 
