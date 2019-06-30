@@ -113,6 +113,7 @@ const updateImages = () => {
     let images = document.querySelectorAll("img");
     for (let i = 0; i < images.length; i++) {
       images[i].setAttribute("src", getRandomImage(imagePath));
+      images[i].setAttribute("style", "width: 100%; object-fit: cover;");
     }
   });
 };
