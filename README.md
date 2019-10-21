@@ -6,7 +6,7 @@ _A browser extension that uses the [WebExtensions API](https://developer.mozilla
 
 ## Supported Browsers
 
-Working version is built for Firefox 🦊
+Working version is built as a [Firefox add-on](https://addons.mozilla.org/en-US/firefox/addon/seeing-sprouts/) 🦊
 
 ## Supported Veggies
 
