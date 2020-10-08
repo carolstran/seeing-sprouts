@@ -59,6 +59,17 @@ const eggplantImagePaths = [
   "images/eggplants/taken-pixabay.jpg"
 ];
 
+const greenBeanImagePaths = [
+  "images/greenBeans/anya-rokenroll-unsplash.jpg",
+  "images/greenBeans/avinash-kumar-unsplash.jpg",
+  "images/greenBeans/bob-bowie-unsplash.jpg",
+  "images/greenBeans/enrevanche-pixabay.jpg",
+  "images/greenBeans/flockine-pixabay.jpg",
+  "images/greenBeans/mike-goad-pixabay.jpg",
+  "images/greenBeans/valeria-boltneva-pexels.jpg",
+  "images/greenBeans/yulia-rozanova-pexels.jpg"
+];
+
 const potatoImagePaths = [
   "images/potatoes/bowl-1842294_1920.jpg",
   "images/potatoes/potatoes-1866415_1920.jpg",
@@ -85,6 +96,7 @@ const map = {
   corn: cornImagePaths,
   candyCorn: candyCornImagePaths,
   eggplants: eggplantImagePaths,
+  greenBeans: greenBeanImagePaths,
   potatoes: potatoImagePaths,
   tomatoes: tomatoImagePaths
 };
