@@ -31,6 +31,16 @@ const broccoliImagePaths = [
   "images/broccoli/pixabay-general.jpg"
 ];
 
+const carrotImagePaths = [
+  "images/carrots/balla-schottner-unsplash.jpg",
+  "images/carrots/heather-gill-unsplash(2).jpg",
+  "images/carrots/heather-gill-unsplash.jpg",
+  "images/carrots/louis-hansel-unsplash.jpg",
+  "images/carrots/mae-mu-unsplash.jpg",
+  "images/carrots/mali-maeder-pexels.jpg",
+  "images/carrots/thiszun-pexels.jpg",
+]
+
 const cornImagePaths = [
   "images/corn/buenosia-carol-pexels.jpg",
   "images/corn/charles-deluvio-robot-unsplash.jpg",
@@ -93,6 +103,7 @@ const map = {
   sprouts: sproutImagePaths,
   avocados: avocadoImagePaths,
   broccoli: broccoliImagePaths,
+  carrots: carrotImagePaths,
   corn: cornImagePaths,
   candyCorn: candyCornImagePaths,
   eggplants: eggplantImagePaths,
