@@ -68,16 +68,6 @@ const potatoImagePaths = [
   "images/potatoes/ukraine-2652561_1920.jpg"
 ];
 
-const tomatoImagePaths = [
-  "images/tomatoes/alex-ghizila-UD_j10SKj5g-unsplash.jpg",
-  "images/tomatoes/aliona-gumeniuk-CWAargZlesM-unsplash.jpg",
-  "images/tomatoes/immo-wegmann-S-de8PboZmI-unsplash.jpg",
-  "images/tomatoes/lars-blankers-6Z7Ss9jlEL0-unsplash.jpg",
-  "images/tomatoes/marc-mueller-dJHdolN553o-unsplash.jpg",
-  "images/tomatoes/thomas-martinsen-iASD5_HpTZc-unsplash.jpg",
-  "images/tomatoes/tom-hermans-nM6qrtnVKn8-unsplash.jpg"
-];
-
 const pumpkinImagePaths = [
   "images/pumpkins/benedikt-geyer-unsplash.jpg",
   "images/pumpkins/colton-sturgeon-unsplash.jpg",
@@ -90,7 +80,17 @@ const pumpkinImagePaths = [
   "images/pumpkins/olivia-kulbida-unsplash.jpg",
   "images/pumpkins/rohan-reddy-unsplash.jpg",
   "images/pumpkins/sebastien-lapointe-unsplash.jpg"
-]
+];
+
+const tomatoImagePaths = [
+  "images/tomatoes/alex-ghizila-UD_j10SKj5g-unsplash.jpg",
+  "images/tomatoes/aliona-gumeniuk-CWAargZlesM-unsplash.jpg",
+  "images/tomatoes/immo-wegmann-S-de8PboZmI-unsplash.jpg",
+  "images/tomatoes/lars-blankers-6Z7Ss9jlEL0-unsplash.jpg",
+  "images/tomatoes/marc-mueller-dJHdolN553o-unsplash.jpg",
+  "images/tomatoes/thomas-martinsen-iASD5_HpTZc-unsplash.jpg",
+  "images/tomatoes/tom-hermans-nM6qrtnVKn8-unsplash.jpg"
+];
 
 const map = {
   sprouts: sproutImagePaths,
@@ -100,8 +100,8 @@ const map = {
   candyCorn: candyCornImagePaths,
   eggplants: eggplantImagePaths,
   potatoes: potatoImagePaths,
-  tomatoes: tomatoImagePaths,
-  pumpkins: pumpkinImagePaths
+  pumpkins: pumpkinImagePaths,
+  tomatoes: tomatoImagePaths
 };
 
 const restoreOptionsPromise = () => {
