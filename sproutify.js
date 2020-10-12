@@ -89,6 +89,20 @@ const potatoImagePaths = [
   "images/potatoes/ukraine-2652561_1920.jpg"
 ];
 
+const pumpkinImagePaths = [
+  "images/pumpkins/benedikt-geyer-unsplash.jpg",
+  "images/pumpkins/colton-sturgeon-unsplash.jpg",
+  "images/pumpkins/craig-pattenaude-unsplash.jpg",
+  "images/pumpkins/dan-gold-unsplash.jpg",
+  "images/pumpkins/karalina-s-unsplash.jpg",
+  "images/pumpkins/kerstin-wrba-unsplash.jpg",
+  "images/pumpkins/maddy-baker-unsplash.jpg",
+  "images/pumpkins/matt-eberle-unsplash.jpg",
+  "images/pumpkins/olivia-kulbida-unsplash.jpg",
+  "images/pumpkins/rohan-reddy-unsplash.jpg",
+  "images/pumpkins/sebastien-lapointe-unsplash.jpg"
+];
+
 const tomatoImagePaths = [
   "images/tomatoes/alex-ghizila-UD_j10SKj5g-unsplash.jpg",
   "images/tomatoes/aliona-gumeniuk-CWAargZlesM-unsplash.jpg",
@@ -109,6 +123,7 @@ const map = {
   eggplants: eggplantImagePaths,
   greenBeans: greenBeanImagePaths,
   potatoes: potatoImagePaths,
+  pumpkins: pumpkinImagePaths,
   tomatoes: tomatoImagePaths
 };
 
