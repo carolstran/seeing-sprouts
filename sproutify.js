@@ -31,6 +31,13 @@ const broccoliImagePaths = [
   "images/broccoli/pixabay-general.jpg"
 ];
 
+const candyCornImagePaths = [
+  "images/candyCorn/dane-deaner-unsplash.jpg",
+  "images/candyCorn/sheri-silver-unsplash.jpg",
+  "images/candyCorn/skeeze-pixabay.jpg",
+  "images/candyCorn/wokandapix-pixabay.jpg"
+];
+
 const carrotImagePaths = [
   "images/carrots/balla-schottner-unsplash.jpg",
   "images/carrots/heather-gill-unsplash(2).jpg",
@@ -53,13 +60,6 @@ const cornImagePaths = [
   "images/corn/virgil-cayasa-unsplash.jpg"
 ];
 
-const candyCornImagePaths = [
-  "images/candyCorn/dane-deaner-unsplash.jpg",
-  "images/candyCorn/sheri-silver-unsplash.jpg",
-  "images/candyCorn/skeeze-pixabay.jpg",
-  "images/candyCorn/wokandapix-pixabay.jpg"
-];
-
 const eggplantImagePaths = [
   "images/eggplants/charles-deluvio-landscape-unsplash.jpg",
   "images/eggplants/charles-deluvio-portrait-unsplash.jpg",
@@ -78,6 +78,16 @@ const greenBeanImagePaths = [
   "images/greenBeans/mike-goad-pixabay.jpg",
   "images/greenBeans/valeria-boltneva-pexels.jpg",
   "images/greenBeans/yulia-rozanova-pexels.jpg"
+];
+
+const pickleImagePaths = [
+  "images/pickles/eva-elijas-pexels.jpg",
+  "images/pickles/jancickal-pixabay.jpg",
+  "images/pickles/jonathan-pielmayer-1-unsplash.jpg",
+  "images/pickles/jonathan-pielmayer-2-unsplash.jpg",
+  "images/pickles/marta-tiuzova-pexels.jpg"
+  "images/pickles/mockup-graphics-unsplash.jpg",
+  "images/pickles/public-domaine-pixy.jpg"
 ];
 
 const potatoImagePaths = [
@@ -117,11 +127,12 @@ const map = {
   sprouts: sproutImagePaths,
   avocados: avocadoImagePaths,
   broccoli: broccoliImagePaths,
+  candyCorn: candyCornImagePaths,
   carrots: carrotImagePaths,
   corn: cornImagePaths,
-  candyCorn: candyCornImagePaths,
   eggplants: eggplantImagePaths,
   greenBeans: greenBeanImagePaths,
+  pickles: pickleImagePaths,
   potatoes: potatoImagePaths,
   pumpkins: pumpkinImagePaths,
   tomatoes: tomatoImagePaths
