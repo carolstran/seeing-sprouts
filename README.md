@@ -18,6 +18,7 @@ This project was initially created to celebrate the sprout. But now, [thanks to 
 - 🌽 [Corn](images/screenshots/tweet-corn.png)
 - 👻 [Candy corn](images/screenshots/tweet-candycorn.png)
 - 🍆 [Eggplants](images/screenshots/tweet-eggplants.png)
+- 🥒 Pickles
 - 🥔 [Potatoes](images/screenshots/tweet-potatoes.png)
 - 🍅 [Tomatoes](images/screenshots/tweet-tomatoes.png)
 
